@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+
+body {
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: hsl(219, 79%, 90%);
+}
+
+header h1, header h2 {
+	margin: 0;
+}
+
+header {
+	background-color: hsl(219, 79%, 66%); /*cornflowerblue*/
+	color: #fff;
+	padding: 16px;
+	text-align: center;
+}
+
+.intro {
+	padding: 4px 8px;
+}
+
+.main {
+	padding: 4px 8px;
+}
+
+.main button {
+	font-size: 32px;
+	width: 100%;
+	/*max-width: 320px;*/
+	border: none;
+	background-color: hsl(219, 79%, 66%);
+	color: #fff;
+	padding: 16px;
+	font-weight: bold;
+}

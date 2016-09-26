@@ -6,7 +6,8 @@ body {
 	background-color: hsl(219, 79%, 90%);
 }
 
-header h1, header h2 {
+header h1,
+header h2 {
 	margin: 0;
 }
 
@@ -17,13 +18,16 @@ header {
 	text-align: center;
 }
 
-.intro {
-	padding: 4px 8px;
-}
-
+.intro,
 .main {
 	padding: 4px 8px;
+	max-width: 640px;
+	margin: 0 auto;
 }
+/*
+.main {
+	padding: 4px 8px;
+}*/
 
 .main button {
 	font-size: 32px;
